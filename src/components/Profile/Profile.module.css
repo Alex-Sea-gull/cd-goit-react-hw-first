@@ -1,0 +1,71 @@
+.card {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 2px solid #0d0d0e;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.cardTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px;
+}
+
+.picture {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #575252;
+}
+
+.userName {
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.cardTop p:nth-child(3) {
+    margin-bottom: 10px;
+}
+
+.text {
+    color: rgb(136, 130, 130);
+    font-size: 32px;
+}
+
+.socList {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #898991;
+    background-color: rgb(233, 221, 221);
+}
+
+.socItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100% / 3);
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.socItem:nth-child(2) {
+    border-left: 2px solid #898991;
+    border-right: 2px solid #898991;
+}
+
+.total {
+    font-weight: 500;
+}
