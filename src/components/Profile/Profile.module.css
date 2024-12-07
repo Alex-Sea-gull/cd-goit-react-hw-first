@@ -58,7 +58,7 @@
     width: calc(100% / 3);
     padding: 20px;
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .socItem:nth-child(2) {
@@ -67,5 +67,7 @@
 }
 
 .total {
+    font-size: 30px;
     font-weight: 500;
+    padding-top: 10px;
 }
